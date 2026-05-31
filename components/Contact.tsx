@@ -12,9 +12,9 @@ export default function Contact() {
         </p>
         
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-start md:justify-center gap-6 md:gap-12">
-          <a href="mailto:hello@example.com" className="flex items-center gap-3 text-lg font-medium hover:text-accent transition-colors group">
+          <a href="mailto:master188786@gmail.com" className="flex items-center gap-3 text-lg font-medium hover:text-accent transition-colors group">
             <span className="p-3 bg-surface rounded-full group-hover:scale-110 transition-transform"><Mail size={24} /></span>
-            hello@example.com
+            master188786@gmail.com
           </a>
           <a href="https://www.linkedin.com/in/haroon-shahid-601ba5308/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-lg font-medium hover:text-accent transition-colors group">
             <span className="p-3 bg-surface rounded-full group-hover:scale-110 transition-transform"><Linkedin size={24} /></span>

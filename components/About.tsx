@@ -1,15 +1,8 @@
 "use client";
 
-import { motion } from "framer-motion";
 import AnimatedSection from "./AnimatedSection";
 
 export default function About() {
-  const skills = [
-    "HTML", "CSS", "JavaScript", "TypeScript", 
-    "React", "Next.js", "Node.js", "Python", 
-    "Tailwind CSS", "Git", "Figma", "PostgreSQL"
-  ];
-
   return (
     <AnimatedSection id="about" className="py-24 bg-surface/30">
       <div className="max-w-7xl mx-auto px-6">
@@ -25,43 +18,19 @@ export default function About() {
           </div>
           
           <div className="lg:col-span-8">
-            <div className="prose prose-lg dark:prose-invert max-w-none text-foreground/80 mb-10">
+            <div className="prose prose-lg dark:prose-invert max-w-none text-foreground/80">
               <p>
-                Hi, I'm Haroon, a passionate full-stack developer based in the digital realm. I love building intuitive, performant, and beautiful web applications from the ground up.
+                Hi, I&apos;m Haroon — an AI/ML Engineer and Full-Stack Developer who builds intelligent systems that solve real-world problems. I specialize in <strong>Machine Learning</strong>, <strong>Deep Learning</strong>, <strong>Computer Vision</strong>, and <strong>Generative AI</strong>.
               </p>
               <p>
-                My journey in web development started when I realized the power of combining logic with creative design. Since then, I've been constantly learning and pushing the boundaries of what's possible on the web.
+                I work extensively with <strong>LangChain</strong>, <strong>RAG pipelines</strong>, <strong>vector databases</strong>, and the <strong>OpenAI API &amp; SDK</strong> to build production-grade AI applications. I also leverage <strong>n8n</strong> for workflow automation and integrate AI into scalable web platforms using <strong>Next.js</strong>, <strong>React</strong>, and <strong>Python</strong>.
               </p>
               <p>
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge with the developer community.
+                My approach combines deep technical expertise in neural networks and <strong>OpenCV</strong> with a strong product mindset — I don&apos;t just build models, I ship products that users love. From fine-tuning LLMs to deploying real-time computer vision systems, I enjoy tackling complex challenges end-to-end.
               </p>
-            </div>
-            
-            <div>
-              <h3 className="text-xl font-heading font-bold mb-6">Technologies I work with:</h3>
-              <motion.div 
-                className="flex flex-wrap gap-3"
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, margin: "-50px" }}
-                variants={{
-                  visible: { transition: { staggerChildren: 0.08 } },
-                  hidden: {}
-                }}
-              >
-                {skills.map((skill) => (
-                  <motion.span
-                    key={skill}
-                    variants={{
-                      hidden: { opacity: 0, y: 20 },
-                      visible: { opacity: 1, y: 0 }
-                    }}
-                    className="bg-surface border border-foreground/10 px-4 py-2 rounded-md text-sm font-medium"
-                  >
-                    {skill}
-                  </motion.span>
-                ))}
-              </motion.div>
+              <p>
+                When I&apos;m not training models or writing code, you&apos;ll find me exploring cutting-edge AI research, contributing to open-source, and sharing knowledge with the developer community.
+              </p>
             </div>
           </div>
         </div>

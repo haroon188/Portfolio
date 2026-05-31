@@ -6,8 +6,8 @@ import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
 
 export const metadata: Metadata = {
-  title: "Haroon Shahid | Full-Stack Developer",
-  description: "Portfolio of Haroon Shahid, Full-Stack Developer & Creative Coder.",
+  title: "Haroon Shahid | AI/ML Engineer & Full-Stack Developer",
+  description: "Portfolio of Haroon Shahid — AI/ML Engineer specializing in Machine Learning, Deep Learning, Generative AI, LangChain, OpenCV, and Full-Stack Development.",
 };
 
 export default function RootLayout({
